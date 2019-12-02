@@ -1,19 +1,24 @@
 #!/usr/bin/env node
 
+// @todo add properly error handling
 import { downloader, Target } from '../lib/downloader'
 import { getImageLinkList } from '../lib/yaml-getter'
 import { userInput } from '../lib/user-input'
 
-const { configFile, output } = userInput()
+const argumentValue = userInput()
 
-const data = getImageLinkList(configFile)
+const isUserProvideConfigFile = argumentValue.configFile
+
+const data = isUserProvideConfigFile
+  ? getImageLinkList(argumentValue.configFile)
+  : getImageLinkList()
 
 data.imageList.forEach(async current => {
   const option: Target = {
     link: current.link,
     selector: data.target,
     folder: {
-      root: output,
+      root: argumentValue.output,
       name: current.name,
     },
   }

@@ -1,15 +1,17 @@
 {
   "name": "fadper",
   "author": "Ryan Willpower <surasak.c.work@gmail.com>",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "dist/bin/index.ts",
   "license": "MIT",
   "repository": "https://github.com/Ryan-Willpower/fadper",
   "scripts": {
-    "start:dev": "ts-node dist/bin/index.ts"
+    "start:dev": "ts-node dist/bin/index.ts",
+    "clear": "rm -rf build/",
+    "build": "yarn clear && tsc --build"
   },
   "bin": {
-    "fedper": "dist/bin/index.ts"
+    "fedper": "build/bin/index.js"
   },
   "dependencies": {
     "@types/js-yaml": "^3.12.1",

@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./build",
     "module": "commonjs",
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
@@ -8,6 +10,7 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "baseUrl": ".",
+    "outDir": "./build",
     "paths": {
       "*": ["node_modules/*"]
     }

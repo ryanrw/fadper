@@ -1,9 +1,10 @@
 {
   "name": "fadper",
   "author": "Ryan Willpower <surasak.c.work@gmail.com>",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/bin/index.ts",
   "license": "MIT",
+  "repository": "https://github.com/Ryan-Willpower/fadper",
   "scripts": {
     "start:dev": "ts-node dist/bin/index.ts"
   },

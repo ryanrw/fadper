@@ -1,17 +1,29 @@
 {
-  "name": "script",
+  "name": "fadper",
+  "author": "Ryan Willpower <surasak.c.work@gmail.com>",
   "version": "1.0.0",
-  "main": "src/index.ts",
+  "main": "dist/bin/index.ts",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start:dev": "ts-node dist/bin/index.ts"
+  },
+  "bin": {
+    "fedper": "dist/bin/index.ts"
   },
   "dependencies": {
+    "@types/js-yaml": "^3.12.1",
+    "commander": "^4.0.1",
+    "js-yaml": "^3.13.1",
     "puppeteer": "^1.20.0"
   },
   "devDependencies": {
     "@types/puppeteer": "^1.20.0",
     "ts-node": "^8.4.1",
     "typescript": "^3.6.3"
-  }
+  },
+  "keywords": [
+    "fadper",
+    "image",
+    "downloader"
+  ]
 }

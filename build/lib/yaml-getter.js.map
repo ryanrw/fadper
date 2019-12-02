@@ -1,0 +1,1 @@
+{"version":3,"file":"yaml-getter.js","sourceRoot":"","sources":["../../dist/lib/yaml-getter.ts"],"names":[],"mappings":";;AAAA,2BAAiC;AACjC,qCAAkC;AAUlC,SAAgB,gBAAgB,CAC9B,OAAe,GAAG,SAAS,kBAAkB;IAE7C,MAAM,QAAQ,GAAG,iBAAY,CAAC,IAAI,EAAE,MAAM,CAAC,CAAA;IAC3C,MAAM,IAAI,GAAG,kBAAQ,CAAC,QAAQ,CAAc,CAAA;IAE5C,OAAO,IAAI,CAAA;AACb,CAAC;AAPD,4CAOC"}

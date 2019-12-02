@@ -1,0 +1,1 @@
+{"version":3,"file":"root-folder-not-exist.js","sourceRoot":"","sources":["../../../dist/lib/error/root-folder-not-exist.ts"],"names":[],"mappings":";;AAAA,MAAa,uBAAwB,SAAQ,KAAK;IAChD,YAAY,IAAY;QACtB,MAAM,OAAO,GAAG,eAAe,IAAI;;QAE/B,IAAI;KACP,CAAA;QACD,KAAK,CAAC,OAAO,CAAC,CAAA;QACd,IAAI,CAAC,IAAI,GAAG,yBAAyB,CAAA;IACvC,CAAC;CACF;AATD,0DASC"}

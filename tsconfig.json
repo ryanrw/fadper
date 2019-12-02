@@ -15,5 +15,5 @@
       "*": ["node_modules/*"]
     }
   },
-  "include": ["dist/lib/*.ts"]
+  "include": ["dist/**/*.ts"]
 }
